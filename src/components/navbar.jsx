@@ -8,16 +8,16 @@ export default function Navbar () {
                 <div className="link-section">
                     <ul className="links">
                         <li className="link">
-                            Home
+                            HOME
                         </li>
                         <li className="link">
-                            About
+                            ABOUT
                         </li>
                         <li className="link">
-                            Yoga Classes
+                            YOGA CLASSES
                         </li>
                         <li className="link">
-                            More
+                            MORE
                         </li>
                     </ul>
                 </div>

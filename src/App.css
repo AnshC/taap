@@ -1,9 +1,12 @@
 .Navbar {
-    
+    position: absolute;
+    height: 10vh;
+    width: 100%;
 }
 
 .Navbar .bar {
-    height: 10vh;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,5 +22,97 @@
 }
 
 .Navbar .bar ul li {
-    margin: 0 20px 0 20px;
+    margin: 0 30px 0 30px;
+}
+
+.Home .hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10vw 0 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Home .hero .main {
+    width: 50%;
+}
+
+.Home .hero .main h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.Home .hero .main h1 span {
+    color: var(--blue);
+}
+
+.Home .hero .main h2 {
+    font-size: 50px;
+}
+
+.Home .hero .main p {
+    margin: 20px 0 20px 0;
+    color: var(--bone-darker);
+}
+
+.Home .hero .main .link {
+    text-decoration: none;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    padding: 5px 15px 5px 15px;
+    border-radius: 100px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+
+.Home .hero .main .link:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.Home .hero .main .link .icon {
+    margin: 0 0 0 10px;
+}
+
+.Home .hero .panels {
+    width: 50%;
+    padding: 0 50px 0 50px;
+}
+
+.Home .hero .panel {
+    border-radius: 20px;
+    background-color: var(--bone);
+}
+
+.Home .hero .panels .upper {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Home .hero .panels .upper .panel {
+    width: 100%;
+    height: 200px;
+}
+
+.Home .hero .panels .lower {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Home .hero .panels .lower .panel {
+    width: 50%;
+    height: 200px;
+}
+
+.Home .hero .panels .lower .panel:nth-child(1) {
+    margin-right: 10px;
+}
+
+.Home .hero .panels .lower .panel:nth-child(2) {
+    margin-left: 10px;
 }
